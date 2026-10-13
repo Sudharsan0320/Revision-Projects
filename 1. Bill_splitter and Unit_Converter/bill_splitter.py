@@ -1,0 +1,7 @@
+bill = float(input("Enter the total bill amount:"))
+tip = float(input("Enter the tip percentage :"))
+people = int(input("Enter the no of people :"))
+total = bill + (bill * (tip /100))
+share = round(total / people, 2)
+print(total)
+print(f'the amount of money each person should give is {share}.')
